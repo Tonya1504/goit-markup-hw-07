@@ -235,7 +235,7 @@ img {
 .post-cats-item {
   border-radius: 4px;
 }
-.post-cats {
+.list-info {
 }
 
 .list-icons-block {
@@ -247,7 +247,6 @@ img {
   border-radius: 4px;
   margin-bottom: 8px;
 }
-
 .post-cats-title {
   font-weight: 700;
   font-size: 36px;
