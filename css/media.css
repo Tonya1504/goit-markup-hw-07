@@ -1,12 +1,12 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 428px) {
   .container {
-    max-width: 468px;
+    max-width: 426px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 767px;
+    max-width: 552px;
   }
 
   .hero-title {
@@ -33,9 +33,13 @@
     padding-left: 108px;
     padding-right: 108px;
   }*/
-
   .team-list {
     display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .team-block {
+    width: calc((100% - 48px) / 4);
   }
 }
 
