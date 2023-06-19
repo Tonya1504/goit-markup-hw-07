@@ -441,6 +441,10 @@ img {
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 97px;
+  padding-bottom: 96px;
   background: #2e2f42;
 }
 
@@ -450,10 +454,9 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 268px;
-  display: flex;
 }
 
-.footer-block {
+.footer-soc-block {
 }
 
 .footer-soc-list {
@@ -482,7 +485,10 @@ img {
   /* identical to box height, or 150% */
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-top: 72px;
   margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-soc-link {
