@@ -289,7 +289,7 @@ img {
 .team-block {
   background-color: #ffffff;
   /*width: calc((100% - 72px) / 4);*/
-  width: 100%;
+  width: 264px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -379,15 +379,12 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 72px;
 }
 
 .customers-list {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding-bottom: 120px;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 .costomers-link {
@@ -412,9 +409,9 @@ img {
 }
 
 .customers-item {
-  width: 168px;
-  height: 88px;
+  width: calc((100% - 48px) / 2);
   display: flex;
+  margin-top: 72px;
 }
 
 .customers-icon {
@@ -445,7 +442,6 @@ img {
 
 .footer {
   background: #2e2f42;
-  padding: 100px 0;
 }
 
 .footer-text {
@@ -453,18 +449,11 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  width: 264px;
-}
-
-.footer-container {
+  width: 268px;
   display: flex;
-  justify-content: left;
-
-  align-items: baseline;
 }
 
 .footer-block {
-  margin-right: 120px;
 }
 
 .footer-soc-list {
@@ -519,7 +508,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   margin-bottom: 16px;
 }
 
@@ -951,9 +941,6 @@ img {
 }
 
 .footer-form {
-  display: flex;
-  margin-left: 80px;
-  gap: 24px;
 }
 
 .footer-item-check {
