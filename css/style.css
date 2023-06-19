@@ -442,7 +442,6 @@ img {
 
 .footer {
   display: flex;
-  justify-content: center;
   padding-top: 97px;
   padding-bottom: 96px;
   background: #2e2f42;
@@ -456,7 +455,10 @@ img {
   width: 268px;
 }
 
-.footer-soc-block {
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer-soc-list {
@@ -902,6 +904,7 @@ img {
   color: #ffffff;
   margin-left: 80px;
   margin-bottom: 16px;
+  margin-top: 72px;
 }
 
 .footer-input::placeholder {
@@ -930,6 +933,7 @@ img {
   cursor: pointer;
   background-color: #4d5ae5;
   border: none;
+  margin-top: 16px;
 }
 
 .footer-btn:hover,

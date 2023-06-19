@@ -46,6 +46,11 @@
     display: flex;
     margin-top: 72px;
   }
+
+  .footer-container {
+    width: 768px;
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 1158px) {
