@@ -213,10 +213,23 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/adaptuv/dark-bg1x-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background: #2e2f42;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/adaptuv/dark-bg2x-mob.jpg);
+  }
 }
 
 .hero-title {
@@ -428,6 +441,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+  padding-bottom: 96px;
 }
 
 .costomers-link {

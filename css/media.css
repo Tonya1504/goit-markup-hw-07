@@ -1,12 +1,45 @@
+@media screen and (min-width: 320px) {
+  .our-work {
+    display: none;
+  }
+}
 @media screen and (min-width: 428px) {
   .container {
     max-width: 426px;
+  }
+  .our-work {
+    display: none;
   }
 }
 
 @media screen and (min-width: 768px) {
   .team-container {
     max-width: 582px;
+  }
+
+  .hero {
+    background: #2e2f42;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/adaptuv/dark-bg-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background: #2e2f42;
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/adaptuv/dark-bg@2x-tablet.jpg);
+    }
   }
 
   .hero-title {
@@ -101,6 +134,32 @@
   .container {
     max-width: 1158px;
   }
+
+  .hero {
+    background: #2e2f42;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background: #2e2f42;
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/adaptuv/people-office-2x.jpg);
+    }
+  }
+
   .hero-title {
     font-weight: 700;
     font-size: 56px;
