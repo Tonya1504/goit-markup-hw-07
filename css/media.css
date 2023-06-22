@@ -79,6 +79,7 @@
     display: flex;
     margin-top: 72px;
   }
+
   .footer-container {
     max-width: 582px;
     flex-direction: row;
@@ -235,19 +236,23 @@
   }
 
   .footer-container {
+    max-width: 1158px;
     display: flex;
-    justify-content: left;
   }
 
+  .footer {
+    background: #2e2f42;
+    padding: 100px 0;
+  }
   .footer-soc-block {
-    margin-left: 120px;
   }
 
   .footer-form {
     display: flex;
-    justify-content: start;
-    align-items: center;
+    align-items: baseline;
     gap: 24px;
+    padding-bottom: 132px;
+    margin-right: 80px;
   }
 
   .heder-conteiner {

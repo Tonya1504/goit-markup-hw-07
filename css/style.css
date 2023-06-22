@@ -363,7 +363,6 @@ img {
   text-transform: capitalize;
   color: var(--title-our-work-color);
   margin-bottom: 72px;
-  margin-top: 96px;
 }
 
 .team-name {
@@ -1050,6 +1049,8 @@ img {
 }
 
 .footer-form {
+  display: flex;
+  justify-content: baseline;
 }
 
 .footer-item-check {
