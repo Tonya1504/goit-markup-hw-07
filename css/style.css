@@ -217,6 +217,8 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 72px;
+  padding-bottom: 88px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -240,8 +242,6 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #ffffff;
-  padding-top: 72px;
-  padding-bottom: 88px;
 }
 
 .btn-hero {
@@ -313,7 +313,7 @@ img {
 }
 
 .post-cats-text {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;

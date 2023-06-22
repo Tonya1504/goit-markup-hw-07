@@ -192,6 +192,18 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
+  .info {
+    margin-top: 120px;
+  }
+
+  .post-cats-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+
   .list-info {
     display: flex;
     flex-direction: row;
