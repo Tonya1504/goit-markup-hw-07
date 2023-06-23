@@ -309,7 +309,6 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 8px;
-  margin-top: 72px;
 }
 
 .post-cats-text {
@@ -497,7 +496,7 @@ img {
 }
 
 .footer {
-  padding-top: 97px;
+  padding-top: 96px;
   padding-bottom: 96px;
   background: #2e2f42;
 }
@@ -542,7 +541,6 @@ img {
   /* identical to box height, or 150% */
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-top: 72px;
   margin-bottom: 16px;
   display: flex;
   justify-content: center;
@@ -975,8 +973,13 @@ img {
   fill: #f4f4fd;
 }
 
+.footer-subscribe-block {
+  margin-top: 72px;
+  width: 100%;
+}
+
 .footer-input {
-  width: 264px;
+  width: 100%;
   height: 40px;
   border: 1px solid #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -999,9 +1002,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-left: 80px;
-  margin-bottom: 16px;
-  margin-top: 72px;
+  text-align: center;
 }
 
 .footer-input::placeholder {
@@ -1030,6 +1031,7 @@ img {
   cursor: pointer;
   background-color: #4d5ae5;
   border: none;
+  margin: 0 auto;
   margin-top: 16px;
 }
 
@@ -1048,7 +1050,6 @@ img {
 }
 
 .footer-form {
-  display: flex;
   justify-content: baseline;
 }
 
