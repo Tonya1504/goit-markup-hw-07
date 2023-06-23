@@ -246,6 +246,9 @@
           rgba(46, 47, 66, 0.7)
         ),
         url(../images/adaptuv/people-office-2x.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
     }
   }
 
