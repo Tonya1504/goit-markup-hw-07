@@ -75,6 +75,7 @@
     gap: 64px 24px;
   }
   .team-block {
+    margin-bottom: 0px;
     width: 264px;
   }
   .section-team {
