@@ -1,8 +1,5 @@
 @media screen and (min-width: 428px) {
-  .container {
-    max-width: 426px;
-  }
-}
+
 
 @media screen and (min-width: 768px) {
   .container {
@@ -110,6 +107,10 @@
     margin-bottom: 0px;
   }
 
+.footer-soc-block{
+  margin-top: 0;
+}
+
   .footer-container {
     max-width: 582px;
     flex-direction: row;
@@ -209,7 +210,8 @@
     align-items: center;
   }
 
-  .adress-list {
+  .address-list {
+    display: flex;
     flex-direction: column;
     gap: 12px;
   }
@@ -338,6 +340,7 @@
     padding: 100px 0;
   }
   .footer-soc-block {
+    margin-top: 0;
     margin-left: 120px;
   }
 
@@ -404,8 +407,6 @@
   .our-work {
     display: flex;
   }
-  .our-work-title {
-  }
 
   .hero-title {
     font-size: 56px;
@@ -445,3 +446,4 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+ 

@@ -369,7 +369,12 @@ img {
   margin-bottom: 72px;
 }
 
+.team-list:last-child {
+  margin-bottom: 0;
+}
+
 .team-list {
+  display: block;
   gap: 24px;
 }
 
@@ -444,10 +449,6 @@ img {
 
 .section-team {
   background: #f4f4fd;
-}
-.section-team {
-  padding-top: 96px;
-  padding-bottom: 96px;
 }
 
 .customers-section {
@@ -580,6 +581,9 @@ img {
   margin-bottom: 16px;
   display: flex;
   justify-content: center;
+}
+
+.footer-soc-block {
   margin-top: 72px;
 }
 
