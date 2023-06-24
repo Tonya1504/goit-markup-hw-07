@@ -445,6 +445,10 @@ img {
 .section-team {
   background: #f4f4fd;
 }
+.section-team {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
 
 .customers-section {
   padding-top: 96px;
