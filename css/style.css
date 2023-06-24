@@ -546,6 +546,11 @@ img {
   height: 40px;
 }
 
+.footer-subscribe-block {
+  margin-top: 72px;
+  width: 100%;
+}
+
 .footer-soc-icon {
   fill: #f4f4fd;
 }

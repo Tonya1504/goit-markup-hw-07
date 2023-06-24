@@ -5,11 +5,6 @@
   .team-container {
     max-width: 426px;
   }
-
-  .footer-subscribe-block {
-    margin-top: 72px;
-    width: 100%;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -365,7 +360,7 @@
   .footer-subscribe-block {
     margin-left: auto;
     margin-top: 0;
-    width: 453px;
+    width: auto;
   }
 
   .footer-input-title {
