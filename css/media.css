@@ -1,11 +1,4 @@
-@media screen and (min-width: 427px) {
-  .mob-tel {
-    font-size: 26px;
-  }
-
-  .mob-soc-list {
-    gap: 28px;
-  }
+@media screen and (min-width: 428px) {
 }
 
 @media screen and (min-width: 768px) {
